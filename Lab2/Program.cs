@@ -16,12 +16,12 @@ class Program
         Console.WriteLine("a > b: " + (a > b));
         Console.WriteLine("a < c: " + (a < c));
         Console.WriteLine("a > b && a > c: " + (a > b && a > c));
-        Console.WriteLine("a > b || a > c" + (a > b || a > c));
+        Console.WriteLine("a > b || a > c: " + (a > b || a > c));
 
         //Step 2
         bool isRaining = true;
         bool haveUmbrella = false; 
-        if (haveUmbrella && !isRaining)
+        if (!haveUmbrella && isRaining)
         {
             Console.WriteLine("Take an umbrella!");
         }
