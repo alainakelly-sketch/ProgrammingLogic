@@ -60,5 +60,4 @@ class Program
     }
 }
 
-//Problem 1
 
